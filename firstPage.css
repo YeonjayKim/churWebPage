@@ -1,0 +1,158 @@
+#topMenu{
+    position: absolute;
+    top:0px;
+    left:0px;
+    right:0px;
+    margin:auto;
+    width:100%;
+    height:70px;
+}
+
+#theLogo{
+    position: absolute;
+    left:0px;
+    width:100px;
+    height:100%;
+    background-color:antiquewhite;
+    display:inline-block;
+}
+#about{
+    position: absolute;
+    right:30px;
+    top:25px;
+}
+#accountInfo{
+    position:absolute;
+    right:0px;
+    left:0px;
+    top:0px;
+    margin:auto;
+    width:200px;
+    height:100%;
+    background-color:white;
+    display:inline-block;
+    z-index: 2;
+    text-align: center;
+}
+#accPicture{
+    position:absolute;
+    left:0px;
+    top:0px;
+    bottom:0px;
+    margin: auto;
+    background-image:url(face.png);
+    background-size: contain;
+    width:50px;
+    height:50px;
+    z-index:3;
+}
+
+#accDetail{
+    position:absolute;
+    top:100px;
+    left:0px;
+    right:0px;
+    margin:auto;
+    width:0px;
+    height:0px;
+    z-index:3;
+    background-image: url(infoDtail.png);
+    background-size:contain;
+    background-repeat:no-repeat;
+    transition:1s;
+}
+
+#logOutBut{
+    position:absolute;
+    width:50px;
+    height:50px;
+    top:10px;
+    left:250px;
+    border:none;
+    background-color: black;
+    
+    z-index: 2;
+}
+
+#contact{
+    position: absolute;
+    right:100px;
+    width:100px;
+    height:100%;
+    background-color: azure;  
+    display:inline-block;
+}
+
+#news{
+    position: absolute;
+    right:200px;
+    width:100px;
+    height:100%;
+    background-color:aquamarine; 
+    display:inline-block;
+}
+
+#firstMain{
+    position:absolute;
+    top:70px;
+    left:0px;
+    width:100%;
+    height:700px;
+    border:2px black solid;
+    background-color:cadetblue;
+    z-index: 1;   
+}
+#secondMain{
+    position: absolute;
+    top:770px;
+    left:0px;
+    width:100%;
+    height:700px;
+    border:2px black solid;
+    background-color:antiquewhite;
+    z-index: 1;
+}
+
+#sideMenu{
+    position:fixed;
+    right:10px;
+    top:0px;
+    bottom:0px;
+    margin:auto;
+    width:70px;
+    height:300px;
+    border:1px black solid;
+    z-index: 2;
+}
+
+#member{
+    position:relative;
+    top:10px;
+    width:100%;
+    height:70px;
+    background-color:antiquewhite;
+}
+
+#messenger{
+    position: relative;
+    top:0px;
+    width:100%;
+    height:70px;
+    background-color:beige;
+}
+#mainService{
+    position: relative;
+    top:0px;
+    width:100%;
+    height:70px;
+    background-color: aqua;
+}
+
+#midSchool{
+    position: relative;
+    top:0px;
+    width:100%;
+    height:70px;
+    background-color:azure;
+}
+

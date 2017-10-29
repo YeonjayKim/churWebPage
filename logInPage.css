@@ -1,0 +1,74 @@
+#mainBackground{
+    position:fixed;
+    left:0px;
+    top:0px;
+    width:100%;
+    height:100%;
+    background-color: antiquewhite;
+    z-index: 1;
+}
+
+#logInInput{
+    position:fixed;
+    left:0px;
+    right:0px;
+    top:0px;
+    bottom:0px;
+    margin:auto;
+    background-color: white;
+    z-index: 2;
+    width:300px;
+    height:200px;
+}
+#theLogo{
+    position: absolute;
+    left:0px;
+    right:0px;
+    width:150px;
+    height:auto;
+    margin:auto;
+    top:0px;
+}
+
+#idInput{
+    position: absolute;
+    left:0px;
+    right:0px;
+    top:12vh;
+    margin:auto;
+    width:200px;
+}
+#passInput{
+    position:absolute;
+    left:0px;
+    top:18vh;
+    right:0px;
+    margin:auto;
+    width:200px;
+}
+
+#logInButton{
+    position: absolute;
+    left:0px;
+    right:0px;
+    top:24vh;
+    margin:auto;
+    width:200px;
+    height:25px;
+    text-align: center;
+    background-color: cornflowerblue;
+    color:white;
+    border:none;
+    cursor: pointer;
+}
+
+#findId{
+    position:absolute;
+    left:20px;
+    bottom:10px;
+    width:auto;
+    color: cornflowerblue;
+    background-color:white;
+    border:none;
+    cursor: pointer;
+}
